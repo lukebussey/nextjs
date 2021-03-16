@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import {useRouter} from 'next/router'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 
 export default function Home() {
   const router = useRouter();
@@ -36,11 +36,6 @@ export default function Home() {
             <h3>Image</h3>
             <Image width="600" height="400" src="https://www.yesware.com/wp-content/uploads/2021/01/yesware-sales-prospecting-cover.png" />
           </div>
-
-          <a href="/blog/test/" className={styles.card}>
-            <h3>Link to Folder</h3>
-            <p>/test/</p>
-          </a>
 
         </div>
       </main>
